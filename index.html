@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio de Cesar Ortiz</title>
+    <meta name="description" content="Portfolio de Cesar Ortiz">
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="/javascript/validation.js">
+</head>
+
+<body>
+    <header class="navbar">
+        <div class="brand">
+            <img src="/imagenes/yo.jpg" alt="Fotografia Cesar Ortiz" class="brand-img">
+            <div class="brand-text">
+                <h1 class="brand-title">Portafolio Personal</h1>
+                <span class="brand-subtitle">Cesar Ortiz</span>
+            </div>
+        </div>
+
+       
+    </header>
+
+    <main>
+        <section id="Biografia">
+            <h1 class="titulo-info">Biografia</h1>
+            <div>
+                <p style="border-bottom: 2px solid black;" class="info-personal">
+                    Un saludo me presento soy Cesar Alejandro Ortiz Vega vivo en Tegucigalpa 
+                    actualmente soy estudiante de la Universidad Catolica de Honduras en la carrera de Ingenieria en Ciencias de la Computacion
+                    en mi 4to año de carrera.
+                    <br>
+                    estoy en aprendizaje en HTML,CSS y JavaScript,
+                    me apasiona crear soluciones practicas a traves de codigo mi enfoque es en proyectos web.
+                    <br>
+                    Estoy buscando conseguir experiencia y mas aprendizaje en proyectos reales, colaborar o encontrar mi primera practica profesional.
+                    <br>
+                    Me considero una persona puntual y con gran capacidad de aprendizaje autonomo.
+                </p>
+            </div>
+        </section>
+
+        <section id="Experiencia" class="card">
+            <h2 class="titulo-seccion">Proyectos</h2>
+            <div class="imagenes-proyecto">
+                <div class="tarjeta-wrapper">
+                    <img class="tarjeta" src="/imagenes/pollosRancho.png" alt="Módulo de inicio de sesión Pollos del Rancho">
+                    <h3 class="descrp">Desarrollo de Sistema para un restaurante</h3>
+                </div>
+                <div class="tarjeta-wrapper">
+                    <img class="tarjeta" src="/imagenes/pagina_solidaria.png" alt="Página web Red Madres Solidarias">
+                    <h4 class="descrp">Desarrollo de Pagina Web para una ONG</h4>
+                </div>
+                <div class="tarjeta-wrapper">
+                    <img class="tarjeta" src="/imagenes/planEstudio.png" alt="Plan de estudio Universidad Católica">
+                    <h5 class="descrp">Desarrollo de Plan de Estudio de Ingenieria en Sistemas</h5>
+
+                </div>
+            </div>
+        </section>
+
+        <section id="Habilidades">
+            <h2 class="info-personal">Habilidades Blandas</h2>
+            <div>
+                <ul class="lista">
+                    <li>Resolucion de Problemas</li>
+                    <li>Trabajo en Equipo</li>
+                    <li>Cooperativo</li>
+                </ul>
+            </div>
+        </section>
+
+        <section id="Contactame">
+            <form class="form" action="#">
+                <fieldset>
+                    <legend>Contactame</legend>
+                    <div class="form-item">
+                        <label for="Nombre">Nombre: </label>
+                        <input type="text" name="Nombre" id="Nombre" placeholder="Cesar Alejandro Ortiz Vega">
+                    </div>
+                    <div class="form-item">
+                        <label for="correo">Correo Electronico: </label>
+                        <input type="email" name="Correo" id="correo" placeholder="cesarortizv@gmail.com">
+                    </div>
+                    <div class="form-item">
+                        <label for="telf">Telefono: </label>
+                        <input type="tel" name="telefono" id="telf" placeholder="+50498990227">
+                    </div>
+                    <button class="btn-submit" type="submit">Enviar Formulario</button>
+                </fieldset>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        Copyright 2026 &copy; ICC SCJ UNICAH
+    </footer>
+</body>
+
+</html>
